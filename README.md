@@ -213,7 +213,7 @@ plt.ylabel('Cabin Occupancy')
 plt.legend()
 plt.show()
 ```
-https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig1.png
+![alt text](https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig1.png)
 
 ## Statistical Analysis
 In order to fully understand the impact of changing the boarding process from front-to-back to back-to-front, a two-samples *t*-test is performed based on the distribtuions of the simulations. The result indicated the the back-to-front process is significantly faster compared to the front-to-back process (*t*[1998] = -516.78, *p* < 0.001). Considering the time-series of cabin occupancy above, it is likely that this difference is due to the much higher possible cabin occupancy in the back-to-front process, which speeds up the process in the aggregate.
@@ -263,9 +263,8 @@ plt.ylabel('Frequency')
 plt.tight_layout()
 plt.show()
 ```
-
-https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig2.png
-https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig3.png
+![alt text](https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig2.png)
+![alt text](https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/fig3.png)
 
 ## Verification and Validation
 
