@@ -7,7 +7,10 @@ And while airlines presumably are not adapting their boarding procedure in order
 In order to further understand how many resources could be saved, this project aims to simulate a back-to-front boarding order. It should be noted, that every plane has a door in the back, that hypothecially could be reached by the gate's arm, allowing the priority passenger to still board first, except that they need to walk a bit further. Using the back-to-front method, the passengers will not be in such a long queue, because the back will start to fill up first. 
 
 Using the simulation package Simpy in Python, both methods, back-to-front and the classic front-to-back, are simulated and compared in their total enplaining time. 
-In this simulation, a Lufthansa A320-neo with 180 seats is assumed. The A320-neo is short-haul plane, used all around the world for this purpose. It is a newer plane, with inital launch in 2016, but increasing orders due to its fuel efficiency. This specific model is used for routes between, for example, Stuttgart to Berlin, Frankfurt to London, or Hamburg to Madrid. Below figure is depicting the plane's seat map and also visualizing both boarding techniques.
+In this simulation, a Lufthansa A320-neo with 180 seats is assumed. The A320-neo is short-haul plane, used all around the world for this purpose. It is a newer plane, with inital launch in 2016, but increasing orders due to its fuel efficiency. This specific model is used for routes between, for example, Stuttgart to Berlin, Frankfurt to London, or Hamburg to Madrid. Below figure is depicting the plane's seat map and also visualizing both boarding techniques, as well as a flow diagram depicting the simulation.
+
+![alt text](https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/plane.png)
+![alt text](https://github.com/lucasweyrich958/Plane_Boarding_Sim/blob/main/figs/flow.png)
 
 ## Simulation Variables Set-Up
 
